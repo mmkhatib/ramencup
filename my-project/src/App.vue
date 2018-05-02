@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<img src="./assets/logo.png">-->
+    <Greeting msg="Welcome to the Luncher application"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Greeting from './components/Greeting.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+      Greeting
   }
 }
 </script>
+
+<!-- import element CSS -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 
 <style>
 #app {
