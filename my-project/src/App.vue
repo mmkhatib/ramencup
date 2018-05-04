@@ -1,23 +1,28 @@
 <template>
   <div id="app">
     <!--<img src="./assets/logo.png">-->
-    <Greeting msg="Welcome to the Luncher application"/>
+    <Greeting msg="Welcome to Luncher"/>
+    <FavRestaurantSelector/>
   </div>
 </template>
 
 <script>
 import Greeting from './components/Greeting.vue'
+import FavRestaurantSelector from './components/FavRestaurantSelector.vue'
+
 
 export default {
   name: 'app',
   components: {
-      Greeting
+      Greeting,
+      FavRestaurantSelector
+
   }
 }
 </script>
 
 <!-- import element CSS -->
-<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!--<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">-->
 
 <style>
 #app {

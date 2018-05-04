@@ -1,7 +1,11 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-   <p>
+      <h3> Where you can find a darn place for lunch!</h3>
+      <p>
+          <!--<el-button type="primary">Click</el-button>-->
+      </p>
+ <!--  <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the
       <a href="https://github.com/vuejs/vue-cli/tree/dev/docs" target="_blank">vue-cli documentation</a>.
@@ -26,7 +30,7 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org/en" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    </ul>-->
   </div>
 </template>
 
@@ -43,7 +47,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
+  h1 {
+    margin: 0 0 0 0;
+  }
+  h3 {
   margin: 40px 0 0;
 }
 ul {
