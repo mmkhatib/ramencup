@@ -2,20 +2,23 @@
   <div id="app">
     <!--<img src="./assets/logo.png">-->
     <Greeting msg="Welcome to Luncher"/>
-    <FavRestaurantSelector/>
+    <span><FavRestaurantSelector/></span>
+    <br><span><RestaurantList /></span>
   </div>
 </template>
 
 <script>
 import Greeting from './components/Greeting.vue'
 import FavRestaurantSelector from './components/FavRestaurantSelector.vue'
+import RestaurantList from './components/RestaurantList.vue'
 
 
 export default {
   name: 'app',
   components: {
       Greeting,
-      FavRestaurantSelector
+      FavRestaurantSelector,
+      RestaurantList
 
   }
 }
@@ -29,8 +32,8 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /*text-align: center;*/
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 </style>
