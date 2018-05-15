@@ -4,6 +4,7 @@
     <Greeting msg="Welcome to Luncher"/>
     <span><FavRestaurantSelector/></span>
     <br><span><RestaurantList /></span>
+    <br><span><WeekPicker /></span>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Greeting from './components/Greeting.vue'
 import FavRestaurantSelector from './components/FavRestaurantSelector.vue'
 import RestaurantList from './components/RestaurantList.vue'
+import WeekPicker from './components/WeekPicker'
 
 
 export default {
@@ -18,7 +20,8 @@ export default {
   components: {
       Greeting,
       FavRestaurantSelector,
-      RestaurantList
+      RestaurantList,
+      WeekPicker
 
   }
 }
