@@ -21,3 +21,4 @@ yarn-error.log*
 *.sw*
 *.gradle*
 ../.gradle/4.0/
+../.idea*
