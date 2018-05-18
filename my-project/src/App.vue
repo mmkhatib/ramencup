@@ -4,7 +4,7 @@
     <Greeting msg="Welcome to Luncher"/>
     <span><FavRestaurantSelector/></span>
     <br><span><RestaurantList /></span>
-    <br><span><WeekPicker /></span>
+    <!--<br><span><WeekPicker /></span>-->
   </div>
 </template>
 
